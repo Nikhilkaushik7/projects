@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+#navbar {
+  background: #2f96bb;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 6rem;
+}
+#navbar h1 {
+  padding-top: 0.5rem;
+  color: white;
+  font-size: 1.6rem;
+}
+#navbar .fa-solid {
+  margin-top: 1.5rem;
+}
+
+body {
+  background: #3eb6ce;
+}
+
+.gamecontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  padding-inline: 10rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 10vw);
+  grid-template-rows: repeat(3, 10vw);
+}
+
+.box {
+  font-size: 7rem;
+  background: #3eb6ce;
+  color: #340490;
+  font-weight: bolder;
+  border: 3px solid black;
+}
+
+.info {
+  font-size: 1.5rem;
+  color: rgb(69, 18, 26);
+}
+.info h3 {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+#reset {
+  margin-top: 4rem;
+  margin-left: 13rem;
+  width: 50%;
+  border-color: red;
+  height: 35px;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(230, 33, 33);
+  font-size: 1rem;
+  font-weight: 700;
+  box-shadow: 4px 4px 0 rgb(185, 0, 0);
+  outline: 2px 2px solid red;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-left: 118px;
+}
+
+#reset:active {
+  transform: translateX(4px) translateY(4px);
+}
+
+.bt {
+  border-top: 0;
+}
+
+.bb {
+  border-bottom: 0;
+}
+
+.bl {
+  border-left: 0;
+}
+
+.br {
+  border-right: 0;
+}/*# sourceMappingURL=tictac.css.map */
